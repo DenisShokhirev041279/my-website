@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Shokhirev</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .profile-photo {
+            text-align: center;
+        }
+        .profile-photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        form input, form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Denis Shokhirev</h1>
+        <p>Kontaktfreudig, interessiert, motiviert, überzeugungsfähig</p>
+    </header>
+    <nav>
+        <a href="#about">Über mich</a>
+        <a href="#experience">Berufserfahrung</a>
+        <a href="#education">Bildung</a>
+        <a href="#skills">Kompetenzen</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>Über mich</h2>
+            <div class="profile-photo">
+                <img src="path_to_photo.jpg" alt="Denis Shokhirev">
+            </div>
+            <p>Denis Shokhirev, geboren am 04.12.1979 in Moskau (Russland), russische Staatsangehörigkeit, seit Februar 2018 in Deutschland. Umfangreiche Erfahrungen und Kenntnisse im Bereich Einzel- und Großhandel, Unternehmensorganisation und -entwicklung, Baumanagement und Berechnung von Baukonstruktionen. Bereit, in einem anderen Bereich zu arbeiten und eine Karriere aufzubauen. Klug, zielstrebig und ein Teamplayer. Derzeit studiere ich den Beruf des Vermögensberaters.</p>
+        </section>
+        <section id="experience" class="section">
+            <h2>Berufserfahrung</h2>
+            <ul>
+                <li>
+                    <strong>Einräumservis Hildegard Kandler</strong> (09/2023 – 01/2024)
+                    <p>Warenverräumer: Warenannahme und Regalplatzierung in zwei REWE-Filialen, Kontrolle des Ablaufdatums</p>
+                </li>
+                <li>
+                    <strong>Müller GmbH und Co. KG, Erlangen</strong> (06/2023 - 08/2023)
+                    <p>Warenverräumer: Ausstellung in den Warenregalen, Unterstützung bei der Warenannahme und -Verräumung, Sympathischer Ansprechpartner bei Kundenfragen</p>
+                </li>
+                <!-- More experience here -->
+            </ul>
+        </section>
+        <section id="education" class="section">
+            <h2>Bildung</h2>
+            <ul>
+                <li>
+                    <strong>College für Architektur und Baukunst, Moskau</strong> (09/1994 – 08/1998)
+                    <p>Bau und Betrieb von Gebäuden und Anlagen</p>
+                </li>
+                <!-- More education here -->
+            </ul>
+        </section>
+        <section id="skills" class="section">
+            <h2>Kompetenzen</h2>
+            <p>MS Office™, Internet, B2B Suchmaschinen</p>
+        </section>
+        <section id="contact" class="section">
+            <h2>Kontakt</h2>
+            <p>Telefon: +49 176 37558051</p>
+            <p>Email: <a href="mailto:shohirevdenis@gmail.com">shohirevdenis@gmail.com</a></p>
+            <form action="mailto:shohirevdenis@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Ihr Name" required>
+                <input type="email" name="email" placeholder="Ihre Email" required>
+                <textarea name="message" placeholder="Ihre Nachricht" required></textarea>
+                <input type="submit" value="Senden">
+            </form>
+            <p><a href="D_Shokhirev_LL!.pdf" download>Download Resume</a></p>
+            <p>Soziale Netzwerke:</p>
+            <p><a href="https://www.instagram.com/shohirevdenis/">Instagram</a> | <a href="https://www.facebook.com/shohirevdenis">Facebook</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Denis Shokhirev</p>
+    </footer>
+</body>
+</html>
